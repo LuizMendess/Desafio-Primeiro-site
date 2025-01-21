@@ -55,14 +55,10 @@ body {
   bottom: 51px;
 }
 
-.foto-principal {
-  position: relative;
-  left: 40px;
-}
-
-.atendimento {
-  position: relative;
-  left: 570px;
+.fotos-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .paragrafo-1 {
