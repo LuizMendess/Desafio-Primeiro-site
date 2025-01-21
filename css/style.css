@@ -1,0 +1,253 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  font-family: "Poppins", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 1000px; /* Altura fixa em pixels */
+}
+
+.header {
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  height: 87px;
+}
+
+.logo-1 {
+  height: 58px;
+  position: relative;
+  right: 593px;
+  bottom: 51px;
+}
+
+.logo-sobre {
+  height: 58px;
+  position: relative;
+  right: 593px;
+  bottom: 51px;
+}
+
+.logo-horario {
+  height: 58px;
+  position: relative;
+  right: 593px;
+  bottom: 51px;
+}
+
+.logo-contato {
+  height: 58px;
+  position: relative;
+  right: 593px;
+  bottom: 51px;
+}
+
+.foto-principal {
+  position: relative;
+  left: 40px;
+}
+
+.atendimento {
+  position: relative;
+  left: 570px;
+}
+
+.paragrafo-1 {
+  padding: 20px;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.paragrafo-2 {
+  padding: 20px;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sidebar {
+  background-color: #333;
+  color: white;
+  width: 200px; /* Largura do menu lateral em pixels */
+  padding: 15px;
+  position: fixed; /* Fixa o menu lateral */
+  height: 1000px; /* Altura fixa em pixels */
+}
+
+.sidebar ul {
+  list-style-type: none;
+}
+
+.sidebar ul li {
+  top: 58px;
+  position: relative;
+  margin: 20px 11px;
+}
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+  color: #3db451;
+  text-decoration: underline;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  background-color: #817e7e5e;
+  margin-left: 200px; /* Margem esquerda para evitar sobreposição com a sidebar */
+  height: 1000px; /* Altura fixa em pixels */
+}
+
+.horario-table {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #000000;
+  padding: 10px;
+  text-align: center;
+}
+
+th,
+td:hover {
+  background-color: rgb(129, 129, 126);
+  cursor: pointer;
+}
+
+th {
+  background-color: #3db451;
+}
+
+.footer {
+  background-color: #333; /* Cor de fundo */
+  color: white; /* Cor do texto */
+  padding: 20px 0; /* Espaçamento interno */
+  text-align: center; /* Centraliza o texto */
+}
+
+.footer-content {
+  display: flex; /* Usando flexbox para layout */
+  justify-content: space-around; /* Espaçamento entre seções */
+  flex-wrap: wrap; /* Permite que as seções se movam para a próxima linha em telas menores */
+  padding: 20px; /* Espaçamento interno */
+}
+
+.footer-section {
+  left: 49px;
+  position: relative;
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.footer-title {
+  font-weight: bold; /* Título em negrito */
+  margin-bottom: 10px; /* Espaçamento abaixo do título */
+}
+
+.footer-text {
+  margin: 5px 0; /* Margem entre textos */
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column; /* Coloca os links em coluna */
+}
+
+.footer-link {
+  margin: 5px 0; /* Margem entre itens da lista */
+}
+
+.footer-link a {
+  color: white; /* Cor dos links */
+  text-decoration: none; /* Remove sublinhado */
+}
+
+.footer-link a:hover {
+  text-decoration: underline; /* Sublinha ao passar o mouse */
+}
+
+.footer-bottom {
+  background-color: #222; /* Cor de fundo do rodapé inferior */
+  padding: 10px 0; /* Espaçamento interno */
+}
+
+.footer-bottom-text {
+  margin: 0; /* Remove margem */
+}
+
+.h1-content,
+.h2-content {
+  color: #28a745;
+  margin-bottom: 10px;
+}
+
+.contact-info {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border-color: #28a745;
+  outline: none;
+}
+
+textarea {
+  resize: none;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #28a745;
+  color: white;
+}
